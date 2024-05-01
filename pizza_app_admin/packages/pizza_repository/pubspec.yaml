@@ -1,0 +1,26 @@
+name: pizza_repository
+description: A repository that allows for user handling, including authentication and user data management.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.0.1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+#  #  equatable: ^2.0.5
+#  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+#  #  firebase_storage: ^11.6.10
+#  rxdart: ^0.27.7
+##  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
